@@ -1,4 +1,5 @@
 " TIPS for Keeping your Vim Configuration File Clean 
+"
 " (Hacking Vim, pp.214, Appendix B) (Kim Schultz) 
 
 " TIP #1 (Always have VIM in no-compatible mode)

@@ -26,6 +26,7 @@ original="\033[0m"
 #alias qbitocoor='cd ~/Documents/QBITO/MatlabScripts/Coordinates'
 #alias arduinomatlab='cd ~/Documents/MATLAB/ArduinoMatlab && ~/Matlab/bin/matlab'
 alias development='tmux -f ~/.tmux/development.conf attach '
+alias killdevelopment='tmux kill-session -t development '
 # Alias mejora presentación de listado de archivos y directorios
 alias ls='ls --color=auto'
 alias dir='dir --color=auto'

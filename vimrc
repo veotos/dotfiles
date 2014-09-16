@@ -52,6 +52,7 @@ set cursorline
 set cursorcolumn
 " Set spell check
 setlocal spell spelllang=en_us
+setlocal spellfile=~/.vim/en.utf-8.add
 " Attempt to determine the type of a file based on its name and possible
 " its contents
 filetype plugin on

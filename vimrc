@@ -45,11 +45,13 @@ set smarttab
 " Live search and the cursor will start jumping through 
 " the file as you type
 set incsearch
+" Highlight search
+set hlsearch
 " A more visual cursor (line & column)
 set cursorline
 set cursorcolumn
 " Set spell check
-setlocal spell spelllang=en_us,es
+setlocal spell spelllang=en_us
 " Attempt to determine the type of a file based on its name and possible
 " its contents
 filetype plugin on

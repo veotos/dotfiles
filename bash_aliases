@@ -26,7 +26,9 @@ original="\033[0m"
 #alias qbitocoor='cd ~/Documents/QBITO/MatlabScripts/Coordinates'
 #alias arduinomatlab='cd ~/Documents/MATLAB/ArduinoMatlab && ~/Matlab/bin/matlab'
 alias development='tmux -f ~/.tmux/development.conf attach '
-alias killdevelopment='tmux kill-session -t development '
+alias kdevelopment='tmux kill-session -t development '
+alias debunking='tmux -f ~/.tmux/debunking.conf attach '
+alias kdebunking='tmux kill-session -t debunking '
 # Alias mejora presentación de listado de archivos y directorios
 alias ls='ls --color=auto'
 alias dir='dir --color=auto'
@@ -72,3 +74,4 @@ fortune -a | cowsay -n  -f www;
 fi
 # Set keyboard input in VIM mode
 set -o vi
+setxkbmap -option caps:swapescape

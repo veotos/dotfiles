@@ -72,3 +72,10 @@ fortune -a | cowsay -n  -f www;
 fi
 # Set keyboard input in VIM mode
 set -o vi
+# Set caps lock -> Control 
+setxkbmap -option ctrl:nocaps
+## Set caps lock -> none 
+#setxkbmap -option caps:none
+## Set caps lock <-> Control 
+#setxkbmap -option ctrl:swapcaps
+

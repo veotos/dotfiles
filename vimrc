@@ -25,6 +25,11 @@ set nocompatible
 " (or other  setting file) and if not just delete it.
 
 " GENERAL SYSTEM-WIDE SETUP
+" Alexey Shmalk blog (Using vim as c/c++ IDE)
+" If you store .vimrc in the working directory this will be the file sourced
+set exrc
+" This option will restrict some commands in non-default .vimrc (security hole)
+set secure
 " Show Line numbers
 set number
 " Turn on syntax highlighting

@@ -27,9 +27,15 @@ set nocompatible
 " GENERAL SYSTEM-WIDE SETUP
 " Alexey Shmalk blog (Using vim as c/c++ IDE)
 " If you store .vimrc in the working directory this will be the file sourced
+" Pathogen 
+filetype off " Pathogen needs to run before plugin indent on
+call pathogen#infect()
+call pathogen#helptags() " generate helptags for evverything in 'runtimepath'
+
 set exrc
 " This option will restrict some commands in non-default .vimrc (security hole)
 set secure
+"
 " Show Line numbers
 set number
 " Turn on syntax highlighting
